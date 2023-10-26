@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:gray ;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+    background-color:#fff ;
+    margin: 20px auto;
+}
+.cardTop img{
+    width: 500px;
+}
+.cardBottom{
+    padding: 10px 10px;
+
+    width: 450px;
+    text-align: left;
+    line-height: 120%;
+}
+.cardBottom p{
+    padding-top: 10px;
+}
+.card button{
+    width:50%;
+    height: 30px;
+    background-color: #fff;
+    color: blue;
+    border: none;
+    cursor: pointer;
+   margin-top: 50px;
+    padding-bottom: 30px;
+}
